@@ -1,57 +1,45 @@
-# super-rentals
+<h1 align="center">Welcome to EmberJs-tuto 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-10.*%20%7C%7C%20%3E%3D%2012-blue.svg" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+> This project is the superRentals tutorial available on 'https://guides.emberjs.com/release/tutorial/part-1/'  
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+- node 10.* || >= 12
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+## Install
 
-## Installation
+```sh
+npm install
+```
 
-* `git clone <repository-url>` this repository
-* `cd super-rentals`
-* `npm install`
+## Usage
 
-## Running / Development
+```sh
+ember serve
+```
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+## Run tests
 
-### Code Generators
+```sh
+ember test --server
+```
 
-Make use of the many generators for code, try `ember help generate` for more details
+## Author
 
-### Running Tests
+👤 **Jérémy Pluquet**
 
-* `ember test`
-* `ember test --server`
+* Github: [@D0C702WH0](https://github.com/D0C702WH0)
 
-### Linting
+## Show your support
 
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
+Give a ⭐️ if this project helped you!
 
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

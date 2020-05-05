@@ -11,8 +11,7 @@ export default class RentalRoute extends Route {
     let response = await fetch(`/api/rentals/${params.rental_id}.json`);
     let { data } = await response.json();
 
-    return data.map(model => {
-      let { id, attributes } = model;
+      let { id, attributes } = data;
       let type;
 
       if (COMMUNITY_CATEGORIES.includes(attributes.category)) {
@@ -22,6 +21,5 @@ export default class RentalRoute extends Route {
       }
 
       return { id, type, ...attributes };
-    });
   }
 }

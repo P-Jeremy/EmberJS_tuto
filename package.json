@@ -17,7 +17,8 @@
     "lint:js": "eslint .",
     "start": "ember serve",
     "test": "npm-run-all lint:* test:*",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "server": "node ./hapi/server.js"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.3.0",
@@ -57,5 +58,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1"
   }
 }
